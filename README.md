@@ -1,14 +1,16 @@
-# HorrorMechanics
-An individual project intended to be a stepping stone to a flagship release. ***All mechanics are intended for a horror game later down the line.***
+# HorrorMechanics ![Unreal](https://img.shields.io/badge/Engine-Unreal%205.7.3-blue)
+Gameplay systems prototype for a **future first-person horror project.**
+
+This repo focuses on **mechanics experiementaion and systems architecture** rather than standing as a final release or narrative.
 
 ---
-### Already Implemented
-- Stamina System: Sprinting, Jumping
+### Currently Implemented
+- Stamina System: Sprinting, Jumping, exhaustion on stamina depletion.
 - Flashlight (Non-toggleable at the moment, just always on)
 - Enhanced Input Setup
 - Ledge walking and falling; because this was somehow not on by default. Actually spooky.
 ---
-### Intended Features:
+### Intended Systems:
 - **A broad-reaching stamina system**
 -- This should encapsulate all of the actions the player takes within the game, like sprinting, vaulting, jumping, etc.
   
@@ -17,12 +19,15 @@ An individual project intended to be a stepping stone to a flagship release. ***
   
 - **Flashlight system**
 -- It's boring and overdone, but it's going to do for now. Intended future use is a torch, lantern, or alchemical concoction.
+
+- **Environmentals**
+-- Lighting is half the fun. Implementing meshes, geometry, and editing of, will likely be done at the end of the project to carve out a gameplay demo.
   
 - **First-person horror exploration**
 -- Interactability through doors, item pickups/use, physics engine, and more. All basic though. Nothing fancy.
   
 - **Basic Stealth Mechanics**
--- Visual sense at first, then audial, then environmental/hinting. Play dodgeball with a monster!
+-- Visual sense at first, then audial, then environmental/hinting. Play dodgeball with a monster! Simple AI pursuit and evasion.
   
 - **Basic inventory system**
 -- It's about as basic as it sounds. Crafting intended much later.
@@ -33,4 +38,4 @@ An individual project intended to be a stepping stone to a flagship release. ***
 - **UI/UX basics**
 -- Aiming for a good UI setup, nothing overly animated or fancy for now, just needs to inform the player without looking too tacky.
 
-- Anything else I conjure along the way. ***OOOOoooooOOOOooOOOOoOOOoo***
+- And anything else I conjure along the way. ***OOOOoooooOOOOooOOOOoOOOoo***
