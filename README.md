@@ -6,9 +6,10 @@ This repo focuses on **mechanics experiementaion and systems architecture** rath
 ---
 ### Currently Implemented
 - Stamina System: Sprinting, Jumping, exhaustion on stamina depletion.
-- Flashlight (Non-toggleable at the moment, just always on)
+- Flashlight (Toggleable, with sfx placeholder, cooldown between toggles)
 - Enhanced Input Setup
 - Ledge walking and falling; because this was somehow not on by default. Actually spooky.
+- Initial interaction system/UI context. (Only works with a door for now)
 ---
 ### Intended Systems:
 - **A broad-reaching stamina system**
@@ -18,7 +19,7 @@ This repo focuses on **mechanics experiementaion and systems architecture** rath
 -- A learning experience in using this new system in UE.
   
 - **Flashlight system**
--- It's boring and overdone, but it's going to do for now. Intended future use is a torch, lantern, or alchemical concoction.
+-- Intended future use is a torch, lantern, or alchemical concoction.
 
 - **Environmentals**
 -- Lighting is half the fun. Implementing meshes, geometry, and editing of, will likely be done at the end of the project to carve out a gameplay demo.
